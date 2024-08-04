@@ -3,9 +3,23 @@
     margin:0%;
     box-sizing: border-box;
 }
-div{
+.background{
     background-color: #060421;
     width: 100vw;
     height:100vh;
+
+}
+.img{
+ position:relative;
+ top:27px;
+ left:50px;
+ background-color: pink;
+ width: 35vw;
+ height:90vh;
+ border: 10px double #f5a05f;
+ border-radius: 5%;
+ background-image: url(https://pbs.twimg.com/profile_images/1715692540421120000/dimtn-uT_400x400.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
 
 }
