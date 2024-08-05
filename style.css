@@ -32,24 +32,31 @@
     top:100px;
     left:100px;
     border-radius: 5%;
-    color:white;
+    
     display:flex;
     flex-direction: column;
+
+    line-height: 120px;
+    font-weight: bolder;
+    color:#4D4DFF;
+    
+    
 }
+
 
 #name{
     font-size: 4em;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 120px;
-    font-weight: bolder;
-    letter-spacing: 8px;
+    color:#4D4DFF;
 }
+
 #quote{
     
     font-size: 2em;
     font-family: 'Times New Roman', Times, serif;
     line-height: 90px;
     font-weight: bold;
+    color:#4D4DFF;
     
 }
 .buttons{
@@ -66,9 +73,18 @@
     height:70px;
     background-color:#060421;
     color:white;
+    text-decoration: none;
     display:flex;
     font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     align-items: center;
     font-size: 2.3em;
+    transition: 0.2s;
+    overflow: hidden;
+}
+a:hover{
+    color: white;
+    background:#1f25cf;
+    box-shadow: 0 0 10px #2cbfbd,0 0 40px #2cbfbd,0 0 80px #2cbfbd;
+    transition-delay: 0.5s;
 }
