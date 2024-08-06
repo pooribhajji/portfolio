@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 .main{
-    background-color: #060421;
+    background-image: url("https://images.unsplash.com/photo-1573767291321-c0af2eaf5266?q=80&w=1436&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     width:100vw;
+    background-size: contain;
     height: 100vh;
     display:flex;
     flex-direction: column;
@@ -17,37 +18,42 @@
 .project{
     width:75vw;
     height:35vh;
-    background-color: #f29e66;
+    background-color:#060421;
     text-align: center;
     color: rgb(6, 1, 12);
     position: relative;
     padding-top: 30px;
     border:10px solid red;
-    
- 
+    line-height: 50px;
+    font-size: 20px; 
+   
 }
 #pro1{
     
     background-color:#1cfced;
-  
+    color: #060421;
+    text-decoration: none;
     border: 5px solid red;
     transition:all 2s steps(5);
+    
 }
 #pro1:hover{
     background-color:rgb(111, 247, 20);
+    color: aliceblue;
     background-size: cover;
     border:none;
 }
 #pro2{
     
     background-color:rgb(214, 25, 88);
-  
+    color: rgb(31, 4, 14);
+    text-decoration: none;
     border: 5px solid red;
     transition:all 2s steps(5);
 }
 #pro2:hover{
     background-color: #c53a0f;
     background-size: cover;
+    color: white;
     border:none;
 }
-

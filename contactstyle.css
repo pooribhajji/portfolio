@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+#main{
+    height:100vh;
+    width:100vw;
+    background-image: url("https://i.pinimg.com/originals/9e/e2/67/9ee267bf50157251e4e33af49ab1190c.png");
+    background-size: cover;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact_panel{
+    background-color: #3650c2;
+    height:40vh;
+    width:70vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border:3px solid rgb(11, 11, 51);
+}
+#no{
+    width:20vw;
+    height:20vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#3650c2;
+    color:antiquewhite;
+    font-size: 2em;
+
+}
+.img1{
+    height: 50px;
+}
+#email{
+    width:20vw;
+    height:20vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#3650c2;
+    color:antiquewhite;
+    font-size: 2em;
+}
+#insta{
+    width:20vw;
+    height:20vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#3650c2;
+    color:antiquewhite;
+    font-size: 2em;
+   
+ 
+}
